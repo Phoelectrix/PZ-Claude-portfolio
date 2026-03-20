@@ -1,0 +1,42 @@
+# Netlify redirects from old WordPress URLs to new portfolio pages
+# Format: old-path  new-path  status-code
+
+# Priority redirects (links already shared)
+/2026/02/26/drone-economics-air-traffic-technology-international/              /portfolio/drone-economics.html          301
+/2024/09/30/the-long-ignored-athens-waterfront-is-being-revived-new-york-times/ /portfolio/nyt-athens-waterfront.html    301
+/2024/09/30/aef-scoping-report-argolic-environment-foundation/                 /portfolio/aef-scoping-report.html       301
+
+# Journalism articles
+/2024/09/30/147/                                                               /portfolio/nyt-golf-greece.html           301
+/2024/09/30/157/                                                               /portfolio/dw-smugglers.html              301
+/2024/09/30/a-billion-lonely-people-alma-economics/                            /portfolio/billion-lonely-people.html     301
+/2024/09/30/behind-the-scenes-the-making-of-a-new-tax-relief-for-uk-filmmaking-alma-economics/ /portfolio/behind-the-scenes-filmmaking.html 301
+/2024/09/30/eu-shirks-refugee-relocation-responsibility-deutsche-welle/        /portfolio/dw-eu-refugees.html            301
+
+# Horizon Europe projects
+/2026/02/27/hidalgo2-project-communication-dissemination-lead/                 /portfolio/hidalgo2.html                 301
+/2026/02/27/refmap-project-horizon-europe-communication-dissemination-leader/  /portfolio/refmap.html                   301
+/2026/02/27/imafusa-project-horizon-europe-communication-dissemination-leader/ /portfolio/imafusa.html                  301
+
+# Video
+/2024/09/30/lights-camera-economics-independent-film-in-the-uk-alma-economics/ /portfolio/lights-camera-economics.html   301
+/2024/09/30/alma-economics-in-under-60-seconds-alma-economics/                 /portfolio/alma-60-seconds.html           301
+/2024/09/30/argolicorama-short-film-argolic-environment-foundation/            /portfolio/argolicorama-film.html         301
+
+# Digital & editorial
+/2024/09/30/digital-website-and-social-media-manager-alma-economics/           /portfolio/alma-communications.html       301
+/2024/09/30/digital-editor-and-social-media-manager-greece-is-com-kathimerini/ /portfolio/greece-is-digital.html         301
+/2024/09/30/website-and-social-media-manager-argolic-environment-foundation/   /portfolio/aef-digital.html               301
+
+# Other projects
+/2024/09/30/the-atlas-of-greek-turkish-relations-kathimerini/                  /portfolio/atlas-greek-turkish.html       301
+/2024/09/30/symbols-iconic-ruins-catalogue-citylab/                            /portfolio/symbols-catalogue.html         301
+/2024/09/30/greece-is-publishing-kathimerini/                                  /portfolio/greece-is-publishing.html      301
+/2024/09/30/argolicorama-2022-argolic-environment-foundation/                  /portfolio/argolicorama-2022.html         301
+
+# WordPress about page
+/about-2/                                                                      /                                        301
+
+# Catch-all: send any other old WordPress date-based paths to the portfolio page
+/2024/*                                                                        /portfolio.html                          301
+/2026/*                                                                        /portfolio.html                          301
