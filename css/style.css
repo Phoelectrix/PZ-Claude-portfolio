@@ -1871,3 +1871,8 @@ a.card:hover {
 .detail__hero-image-wrap--full {
   max-height: none;
 }
+
+/* Second full button under the first (Liefwork page) */
+.detail__cta--second {
+  margin-top: var(--s-md);
+}
