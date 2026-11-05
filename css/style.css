@@ -1866,3 +1866,8 @@ a.card:hover {
     max-height: 240px;
   }
 }
+
+/* Hero image shown whole (Liefwork page) */
+.detail__hero-image-wrap--full {
+  max-height: none;
+}
